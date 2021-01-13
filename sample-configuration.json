@@ -1,0 +1,5 @@
+[
+    {"name":"myHost","host":"tcp://127.0.0.1:1224","yaml":"../nginx-gohttp/docker-compose.yml"},
+    {"name":"TestBoard","host":"tcp://127.0.0.1:12375","yaml":"../nginx-gohttp/docker-compose.yml"},
+    {"name":"BetaBoard","host":"tcp://127.0.0.1:13375","yaml":"../nginx-gohttp/docker-compose.yml"}
+]

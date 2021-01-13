@@ -1,0 +1,17 @@
+python2board is intended to deploy a set of images to specific hosts. 
+
+Run python2board with a configuration file to automatically deploy docker images to the intended hosts.
+
+The configuration file uses a json format and should be an array of name, host, and a compose yaml file.
+
+[{"name":"Sample", "host":"tcp://127.0.0.1:1234", "yaml":"~/Documents/docker-compose.yml"}]
+
+As the sample shows, the host value should be the full network address of the host, port included.
+If the host address does not correspond to an actually running docker daemon, the docker-compose 
+command will fail for that host.
+
+The yaml value should be generally be the full file path point to the compose yaml file. Alternatively,
+if running from a known directory, it can be a relative path. 
+
+This software is copyright 2021 Stoytcho Stoytchev and is licensed under the MIT License. Please
+see the LICENSE file for the full license.
