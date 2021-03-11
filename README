@@ -1,6 +1,6 @@
-python2board is intended to deploy a set of images to specific hosts. 
+docker2board is intended to deploy a set of images to specific hosts. 
 
-Run python2board with a configuration file to automatically deploy docker images to the intended hosts.
+Run docker2board with a configuration file to automatically deploy docker images to the intended hosts.
 
 The configuration file uses a json format and should be an array of name, host, and a compose yaml file.
 
